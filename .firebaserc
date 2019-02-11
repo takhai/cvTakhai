@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "cv-takhai"
+    "default": "cv-takhai",
+    "production ": "cv-takhai"
   }
 }
