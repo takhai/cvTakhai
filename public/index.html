@@ -6,14 +6,10 @@
     <title>Resume Takhai</title>
 
     <!-- update the version number as needed -->
-    <script defer src="/__/firebase/5.5.3/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/5.5.3/firebase-auth.js"></script>
-    <script defer src="/__/firebase/5.5.3/firebase-database.js"></script>
-    <script defer src="/__/firebase/5.5.3/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/5.5.3/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 
    
   </head>
@@ -46,27 +42,22 @@
 
     
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+     <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDcJqWrIo7o3cBA59XQ02akz38r1zqRPiI",
+        authDomain: "cv-takhai.firebaseapp.com",
+        databaseURL: "https://cv-takhai.firebaseio.com",
+        projectId: "cv-takhai",
+        storageBucket: "cv-takhai.appspot.com",
+        messagingSenderId: "686266811394"
+      };
+      firebase.initializeApp(config);
+      const db = firebase.firestore();
+      db.settings({ timestampsInSnapshots:true})
     </script>
+    
+          <script src="/public/inter.js"></script>     
+    
   </body>
 </html>
