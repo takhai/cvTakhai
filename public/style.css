@@ -1,9 +1,61 @@
-@import "bulma/sass/utilities/_all.sass";
-@import "bulma/sass/grid/columns.sass";
+
+/* set brand colors*/ 
+
+
 
 body {
-    background-color: white;
+    background-color: #a66f71;
+    color:#d6bab3;
+    
 }
+
+.navbar-brand, .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+    background-color: #281727;
+}
+
+@media screen and (min-width: 1088px) {
+.navbar-menu {
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color:#281727;
+    }
+} 
+
+.title {
+    color: #281727;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+
+.hero {
+    background-color: #9d1116;
+
+}
+
+.section_2 {
+    background-color: #be2327;
+
+}
+
+.section.one {
+    color: #d6bab3;
+    font-size: large;
+    background-color: #281727;
+}
+
+.footer {
+    background-color: #a66f71;
+}
+
+
+
+
 
 /*
 .hero {
