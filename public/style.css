@@ -9,6 +9,11 @@ body {
     
 }
 
+
+.navbar-burger {
+    color: #9d2915;
+}
+
 .navbar-brand, .navbar-tabs {
     align-items: stretch;
     display: flex;
@@ -16,6 +21,10 @@ body {
     min-height: 3.25rem;
     background-color: #281727;
 }
+
+
+
+
 
 @media screen and (min-width: 1088px) {
 .navbar-menu {
