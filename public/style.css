@@ -9,6 +9,8 @@ body {
     
 }
 
+/* navbar*/ 
+
 .navbar-burger {
     color: #9d2915;
 }
@@ -75,6 +77,9 @@ body {
     }
 }
 
+
+/* hero*/ 
+
 .title {
     color: #a66f71;
     font-size: 2rem;
@@ -100,11 +105,27 @@ body {
 
 
 
+/* bio and profile pic*/ 
+
 .section.one {
     color: #d6bab3;
     font-size: large;
     background-color: #281727;
 }
+
+
+
+.image img {
+    display: block;
+    height: 10vh;
+    /* width: 100%; */
+    min-height: 35vh;
+}
+
+
+/* disciplines*/
+
+
 
 /*.section_2 {
     background-color: #be2327;
@@ -112,6 +133,7 @@ body {
 }*/
 
 
+/*footer*/ 
 
 .footer {
     background-color: #a66f71;
