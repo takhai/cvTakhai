@@ -113,12 +113,17 @@ body {
     background-color: #281727;
 }
 
-
+/*
+p.value-prop-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+*/
 
 .image img {
     display: block;
     height:auto;
-    width: 100%; 
+    width: 65%; 
     background-color: #be2327;
 }
 
