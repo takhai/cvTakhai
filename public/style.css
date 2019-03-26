@@ -107,10 +107,9 @@ body {
 
 /* bio and profile pic*/ 
 
-.section.one {
-    color: #d6bab3;
-    font-size: large;
+section.section.feature {
     background-color: #281727;
+    color: #a66f71;
 }
 
 /*
@@ -120,12 +119,13 @@ p.value-prop-title {
 }
 */
 
-.image img {
-    display: block;
-    height:auto;
-    width: 65%; 
-    background-color: #be2327;
-}
+@media screen and (max-width: 1088px) {
+    img.biopic {
+        width: 40%;
+    }
+    
+    }
+
 
 
 /* disciplines*/
