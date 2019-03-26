@@ -9,6 +9,14 @@ body {
     
 }
 
+a:hover {
+    color: #281727;
+}
+
+a {
+    color: #9d2915;
+}
+
 /* navbar*/ 
 
 .navbar-burger {
