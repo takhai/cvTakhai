@@ -120,6 +120,24 @@ section.section.feature {
     color: #a66f71;
 }
 
+@media screen and (max-width: 1088px) {
+    
+        p.is-size-6-mobile.is-size-5-tablet.is-size-4-desktop  {
+            margin-top: 1.111vw!important;
+    }
+}
+
+p.is-size-6-mobile.is-size-5-tablet.is-size-4-desktop {
+    margin-top: 10.111vw;
+    /* padding: inherit; */
+}
+
+@media screen and (min-width: 1088px) {
+.is-size-4-desktop {
+    font-size: 1.1rem!important;
+}
+}
+
 /*
 p.value-prop-title {
     margin-top: 50px;
@@ -137,6 +155,16 @@ p.value-prop-title {
 
 
 /* disciplines*/
+
+
+.fa, .fas {
+    font-weight: 900;
+    color: #a66f71;
+}
+
+.hero.is-primary .title {
+    color: #a66f71;
+}
 
 p.level-item.has-text-centered.title.home-page-level-item {
     margin-top: 20px;
