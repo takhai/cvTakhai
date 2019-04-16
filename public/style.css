@@ -155,6 +155,9 @@ p.value-prop-title {
 
 
 /*tabs disciplines*/
+ul#art-choice {
+    background-color: #281727;
+}
 
 .tabs {
     -webkit-overflow-scrolling: touch;
@@ -188,7 +191,7 @@ p.value-prop-title {
 
 
 .hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover {
-    background-color: #291727;
+    background-color: #9d1116;
     border-color: #291727;
     color: #a66f71;
 }
